@@ -1,0 +1,9 @@
+# NVIDIA GPU(CUDA 12.6)용 PyTorch 를 받기 위한 추가 인덱스
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.14.1+cu126
+torchaudio==2.11.0+cu126
+soundfile==0.14.0
+scipy==1.18.1
+qwen-tts==0.1.1
+setuptools==84.2.1

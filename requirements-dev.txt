@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# 린트 + 포맷팅
+ruff==0.17.3

@@ -1,0 +1,77 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.huggingface/
+
+# Logs
+*.log
+
+# Model files
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+
+# IDE / OS / AI tools
+.vscode/
+.idea/
+.claude/
+CLAUDE.local.md
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# User data: each user adds their own (keep the folders, not the contents)
+# - reference/: personal voice recording and its transcript
+# - scripts/:   scripts to read
+# - output/:    generated audio
+reference/*
+!reference/.gitkeep
+scripts/*
+!scripts/.gitkeep
+output/*
+!output/.gitkeep
+
+# Audio / video files anywhere in the project
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.aac
+*.wma
+*.opus
+*.webm
+*.mp4
+*.mov
+*.avi
+*.mkv
